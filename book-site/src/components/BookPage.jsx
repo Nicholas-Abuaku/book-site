@@ -17,7 +17,7 @@ export const BookPage = () => {
   }, []);
   return (
     <>
-      <h1>Books</h1>
+      <h1 style={{ textAlign: "center", color: "white" }}>Books</h1>
       {books.map((book) => {
         return (
           <BookCard

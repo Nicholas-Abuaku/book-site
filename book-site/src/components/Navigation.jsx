@@ -14,9 +14,11 @@ export const Navigation = () => {
             Home
           </Nav.Link>
           <Nav.Link as={Link} to="/addbook">
-            Books
+            Add Book
           </Nav.Link>
-          <Nav.Link href="#">Lists</Nav.Link>
+          <Nav.Link as={Link} to="/manage">
+            Manage Books
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
