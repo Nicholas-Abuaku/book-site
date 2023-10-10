@@ -1,0 +1,16 @@
+.card {
+  max-width: 300px;
+  max-height: 600px;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+img {
+  object-fit: cover;
+  max-width: 299px;
+  max-height: 451.05px;
+
+  cursor: pointer;
+}

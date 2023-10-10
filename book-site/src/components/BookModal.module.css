@@ -1,0 +1,13 @@
+.blurb {
+  text-align: center;
+  border-top: 4px solid black;
+}
+.modalTitle {
+  text-align: center;
+}
+.modalImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
