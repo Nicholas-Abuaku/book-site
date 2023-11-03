@@ -8,7 +8,7 @@ export const Navigation = () => {
   return (
     <Navbar expand="lg" className="bg-light">
       <Container>
-        <Navbar.Brand href="#">Branding Here</Navbar.Brand>
+        <Navbar.Brand href="#"></Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link as={Link} to="/">
             Home
