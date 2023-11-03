@@ -29,6 +29,10 @@ export const AddBook = () => {
       console.log(err);
     }
   };
+
+  function handleCancel() {
+    navigate("/");
+  }
   console.log(book);
   return (
     <>
@@ -82,7 +86,9 @@ export const AddBook = () => {
           <Button type="submit" className="btn-success" onClick={handleClick}>
             Submit
           </Button>
-          <Button className="btn-danger">Cancel</Button>
+          <Button className="btn-danger" onClick={handleCancel}>
+            Cancel
+          </Button>
         </Form>
       </div>
     </>

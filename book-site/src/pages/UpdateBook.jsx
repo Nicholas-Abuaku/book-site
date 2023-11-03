@@ -30,10 +30,15 @@ export const UpdateBook = () => {
       console.log(err);
     }
   };
+
+  function goBack() {
+    navigate("/");
+  }
   //   console.log(location.pathname.split("/")[2]);
   return (
     <>
       <h1>Update Book</h1>
+
       <Form>
         <Form.Group className="mb-3">
           <FloatingLabel controlId="floatingTitle" label="Book Title">
@@ -76,7 +81,9 @@ export const UpdateBook = () => {
           <Button className="btn-warning" onClick={handleClick}>
             Update
           </Button>
-          <Button className="btn-danger">Cancel</Button>
+          <Button className="btn-danger" onClick={goBack}>
+            Cancel
+          </Button>
         </ButtonGroup>
       </Form>
     </>
