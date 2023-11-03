@@ -8,7 +8,7 @@ import { AddBook } from "./pages/AddBook";
 import { ManageBook } from "./pages/ManageBook";
 import { Routes, Route } from "react-router-dom";
 import { UpdateBook } from "./pages/UpdateBook";
-
+import { FullBookInfo } from "./pages/FullBookInfo";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
           <Route path="/addbook" element={<AddBook />} />
           <Route path="/manage" element={<ManageBook />} />
           <Route path="/update/:id" element={<UpdateBook />} />
+          <Route path="/testing" element={<FullBookInfo />} />
           <Route path="/" element={<BookPage />} />
         </Routes>
       </div>
