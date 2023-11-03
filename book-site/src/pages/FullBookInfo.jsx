@@ -1,4 +1,4 @@
-export const BookPage = () => {
+export const FullBookInfo = () => {
   return (
     <>
       <h1>Book Title</h1>
