@@ -13,9 +13,9 @@ export const Navigation = () => {
           <Nav.Link as={Link} to="/">
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/addbook">
-            Add Book
-          </Nav.Link>
+          {/* <Nav.Link as={Link} to="/">
+            Unsure
+          </Nav.Link> */}
           <Nav.Link as={Link} to="/manage">
             Manage Books
           </Nav.Link>
