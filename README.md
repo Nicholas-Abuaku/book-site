@@ -53,4 +53,16 @@ npm install mysql
 ```bash
 npm install nodemon
 ```
-
+# Starting Project
+## Starting Express back-end
+cd into /book-site/express-backend
+then enter
+``` bash
+npm start
+```
+## Starting React front-end
+cd into /book-site/book-site
+then in enter
+``` bash
+npm run dev
+```
