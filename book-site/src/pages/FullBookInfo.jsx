@@ -1,9 +1,9 @@
 export const FullBookInfo = () => {
   return (
     <>
-      <h1>Book Title</h1>
-      <h2>AUTHOR</h2>
-      <p>Book Description</p>
+      <h1 style={{ textAlign: "center" }}>Book Title</h1>
+      <h2 style={{ textAlign: "center" }}>AUTHOR</h2>
+      <p style={{ textAlign: "center" }}>Book Description</p>
     </>
   );
 };
